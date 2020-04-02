@@ -22,3 +22,6 @@ C:\Users\Toretto\Documents\EGvilagServerCLI2\EGvilagServerCLI2\obj\Debug\EGvilag
 C:\Users\Toretto\Documents\EGvilagServerCLI2\EGvilagServerCLI2\bin\Debug\EGvilagServerCLI2.exe
 C:\Users\Toretto\Documents\EGvilagServerCLI2\EGvilagServerCLI2\bin\Debug\EGvilagServerCLI2.pdb
 C:\Users\Toretto\Documents\EGvilagServerCLI2\EGvilagServerCLI2\obj\Debug\EGvilagServerCLI2.csprojResolveAssemblyReference.cache
+D:\Dokumentumok\Visual Studio 2013\git\.git\egvilag\EGvilagServerCLI2\EGvilagServerCLI2\bin\Debug\EGvilagServerCLI2.exe.config
+D:\Dokumentumok\Visual Studio 2013\git\.git\egvilag\EGvilagServerCLI2\EGvilagServerCLI2\obj\Debug\EGvilagServerCLI2.exe
+D:\Dokumentumok\Visual Studio 2013\git\.git\egvilag\EGvilagServerCLI2\EGvilagServerCLI2\obj\Debug\EGvilagServerCLI2.pdb
