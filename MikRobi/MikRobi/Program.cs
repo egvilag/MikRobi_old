@@ -33,7 +33,7 @@ namespace MikRobi
                 {
                     cmd = Console.ReadLine();
                 } while (ExecuteCommand(cmd));
-                Console.WriteLine("Exit program...");
+                Console.WriteLine("Kilépés...");
                 break;
             }
             Console.WriteLine("Bye.");
@@ -62,7 +62,8 @@ namespace MikRobi
             Console.WriteLine("MikRobi helyi parancsainak listája:");
             Console.WriteLine();
             Console.WriteLine("?, Segítség      -- Ennek a listának a megjelenítése");
-            Console.WriteLine("S, Stop          -- Szerver leállítása");
+            Console.WriteLine("S, Stop          -- Szerver leállítása");                // 
+            Console.WriteLine("UU, ÜtemÚjra     -- Ütemezőlista újraolvasása");         // kidolgozandó
 
             Console.WriteLine();
         }

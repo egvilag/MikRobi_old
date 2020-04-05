@@ -4,3 +4,6 @@ D:\Dokumentumok\Visual Studio 2013\git\.git\egvilag\MikRobi\MikRobi\bin\Debug\Mi
 D:\Dokumentumok\Visual Studio 2013\git\.git\egvilag\MikRobi\MikRobi\obj\Debug\MikRobi.csprojResolveAssemblyReference.cache
 D:\Dokumentumok\Visual Studio 2013\git\.git\egvilag\MikRobi\MikRobi\obj\Debug\MikRobi.exe
 D:\Dokumentumok\Visual Studio 2013\git\.git\egvilag\MikRobi\MikRobi\obj\Debug\MikRobi.pdb
+C:\Users\Willis\Documents\GitHub\egvilag2\MikRobi\MikRobi\bin\Debug\MikRobi.exe.config
+C:\Users\Willis\Documents\GitHub\egvilag2\MikRobi\MikRobi\obj\Debug\MikRobi.exe
+C:\Users\Willis\Documents\GitHub\egvilag2\MikRobi\MikRobi\obj\Debug\MikRobi.pdb
