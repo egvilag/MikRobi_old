@@ -1,5 +1,0 @@
-; Valami feladat
-; Formátum:
-; idõ(mp)|ip|szkriptfájl|logfájl
-
-3600|192.168.0.126|test.sh|LOGS/test.log
