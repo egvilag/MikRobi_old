@@ -1,0 +1,226 @@
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Sun Apr 19 08:13:12 CEST 2020
+
+  System load:  0.97               Processes:             219
+  Usage of /:   58.8% of 18.61GB   Users logged in:       1
+  Memory usage: 77%                IP address for ens160: 192.168.0.92
+  Swap usage:   27%
+
+ * Kubernetes 1.18 GA is now available! See https://microk8s.io for docs or
+   install it with:
+
+     sudo snap install microk8s --channel=1.18 --classic
+
+ * Multipass 1.1 adds proxy support for developers behind enterprise
+   firewalls. Rapid prototyping for cloud operations just got easier.
+
+     https://multipass.run/
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+6 csomag frissíthetõ.
+0 frissítés biztonsági frissítés.
+
+
+Last login: Sat Apr 18 21:09:15 2020 from 192.168.0.40
+
+mc-private@mc-private:~$ ls
+Asztal        EssentialsX  Letöltések  mikrobika  Sablonok   Videók
+Dokumentumok  Képek        __MACOSX    Nyilvános  ssh-teszt  Zenék
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+heló
+
+heló: a parancs nem található
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Sun Apr 19 08:16:55 CEST 2020
+
+  System load:  1.06               Processes:             222
+  Usage of /:   58.8% of 18.61GB   Users logged in:       1
+  Memory usage: 77%                IP address for ens160: 192.168.0.92
+  Swap usage:   27%
+
+ * Kubernetes 1.18 GA is now available! See https://microk8s.io for docs or
+   install it with:
+
+     sudo snap install microk8s --channel=1.18 --classic
+
+ * Multipass 1.1 adds proxy support for developers behind enterprise
+   firewalls. Rapid prototyping for cloud operations just got easier.
+
+     https://multipass.run/
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+6 csomag frissíthetõ.
+0 frissítés biztonsági frissítés.
+
+
+Last login: Sun Apr 19 08:13:14 2020 from 192.168.0.40
+
+mc-private@mc-private:~$ asdf
+
+
+„asdf” parancs nem található, erre gondolt:
+
+  „adsf” parancs ruby-adsf deb csomagból
+  „asdfg” parancs aoeui deb csomagból
+  „sadf” parancs sysstat deb csomagból
+  „sdf” parancs sdf deb csomagból
+
+Próbálja ki ezt: sudo apt install <deb_neve>
+
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Sun Apr 19 08:17:32 CEST 2020
+
+  System load:  0.88               Processes:             223
+  Usage of /:   58.8% of 18.61GB   Users logged in:       1
+  Memory usage: 77%                IP address for ens160: 192.168.0.92
+  Swap usage:   27%
+
+ * Kubernetes 1.18 GA is now available! See https://microk8s.io for docs or
+   install it with:
+
+     sudo snap install microk8s --channel=1.18 --classic
+
+ * Multipass 1.1 adds proxy support for developers behind enterprise
+   firewalls. Rapid prototyping for cloud operations just got easier.
+
+     https://multipass.run/
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+6 csomag frissíthetõ.
+0 frissítés biztonsági frissítés.
+
+
+Last login: Sun Apr 19 08:16:56 2020 from 192.168.0.40
+
+mc-private@mc-private:~$ d
+
+d: a parancs nem található
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+top
+'term': unknown terminal type.
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+af
+
+af: a parancs nem található
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Sun Apr 19 08:19:26 CEST 2020
+
+  System load:  1.41               Processes:             222
+  Usage of /:   58.8% of 18.61GB   Users logged in:       1
+  Memory usage: 77%                IP address for ens160: 192.168.0.92
+  Swap usage:   27%
+
+ * Kubernetes 1.18 GA is now available! See https://microk8s.io for docs or
+   install it with:
+
+     sudo snap install microk8s --channel=1.18 --classic
+
+ * Multipass 1.1 adds proxy support for developers behind enterprise
+   firewalls. Rapid prototyping for cloud operations just got easier.
+
+     https://multipass.run/
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+6 csomag frissíthetõ.
+0 frissítés biztonsági frissítés.
+
+
+Last login: Sun Apr 19 08:17:33 2020 from 192.168.0.40
+
+mc-private@mc-private:~$ aswdf
+
+aswdf: a parancs nem található
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Sun Apr 19 08:23:34 CEST 2020
+
+  System load:  0.81               Processes:             224
+  Usage of /:   58.8% of 18.61GB   Users logged in:       1
+  Memory usage: 77%                IP address for ens160: 192.168.0.92
+  Swap usage:   27%
+
+ * Kubernetes 1.18 GA is now available! See https://microk8s.io for docs or
+   install it with:
+
+     sudo snap install microk8s --channel=1.18 --classic
+
+ * Multipass 1.1 adds proxy support for developers behind enterprise
+   firewalls. Rapid prototyping for cloud operations just got easier.
+
+     https://multipass.run/
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+6 packages can be updated.
+0 updates are security updates.
+
+
+Last login: Sun Apr 19 08:19:27 2020 from 192.168.0.40
+
+mc-private@mc-private:~$ a
+
+a: a parancs nem található
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+top
+'term': unknown terminal type.
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
