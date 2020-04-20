@@ -1,0 +1,953 @@
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Apr 20 13:00:38 CEST 2020
+
+  System load:  0.95               Processes:             224
+  Usage of /:   59.1% of 18.61GB   Users logged in:       1
+  Memory usage: 77%                IP address for ens160: 192.168.0.92
+  Swap usage:   29%
+
+ * Kubernetes 1.18 GA is now available! See https://microk8s.io for docs or
+   install it with:
+
+     sudo snap install microk8s --channel=1.18 --classic
+
+ * Multipass 1.1 adds proxy support for developers behind enterprise
+   firewalls. Rapid prototyping for cloud operations just got easier.
+
+     https://multipass.run/
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+6 csomag frissíthetõ.
+0 frissítés biztonsági frissítés.
+
+
+Last login: Sun Apr 19 08:23:35 2020 from 192.168.0.40
+
+mc-private@mc-private:~$ 
+
+a
+
+a: a parancs nem található
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+b
+b: a parancs nem található
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Apr 20 13:33:47 CEST 2020
+
+  System load:  1.14               Processes:             222
+  Usage of /:   59.1% of 18.61GB   Users logged in:       1
+  Memory usage: 77%                IP address for ens160: 192.168.0.92
+  Swap usage:   29%
+
+ * Kubernetes 1.18 GA is now available! See https://microk8s.io for docs or
+   install it with:
+
+     sudo snap install microk8s --channel=1.18 --classic
+
+ * Multipass 1.1 adds proxy support for developers behind enterprise
+   firewalls. Rapid prototyping for cloud operations just got easier.
+
+     https://multipass.run/
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+6 csomag frissíthetõ.
+0 frissítés biztonsági frissítés.
+
+
+Last login: Mon Apr 20 13:00:41 2020 from 185.217.73.197
+
+mc-private@mc-private:~$ 
+
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Apr 20 13:37:26 CEST 2020
+
+  System load:  1.05               Processes:             223
+  Usage of /:   59.1% of 18.61GB   Users logged in:       1
+  Memory usage: 77%                IP address for ens160: 192.168.0.92
+  Swap usage:   29%
+
+ * Kubernetes 1.18 GA is now available! See https://microk8s.io for docs or
+   install it with:
+
+     sudo snap install microk8s --channel=1.18 --classic
+
+ * Multipass 1.1 adds proxy support for developers behind enterprise
+   firewalls. Rapid prototyping for cloud operations just got easier.
+
+     https://multipass.run/
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+6 csomag frissíthetõ.
+0 frissítés biztonsági frissítés.
+
+
+Last login: Mon Apr 20 13:33:49 2020 from 185.217.73.197
+
+#############################################################
+
+######mc-private@mc-private:~$ 
+<################################################################
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ Logolás indítva (2020. 4. 20. 13:4:28)
+#########-bash: szintaktikai hiba „(” váratlan token közelében
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ ####################################################
+<###################################################                         ########################                        
+
+helo
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+asd
+
+
+„asd” parancs nem található, de van 24 hasonló.
+
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Apr 20 13:38:39 CEST 2020
+
+  System load:  1.04               Processes:             223
+  Usage of /:   59.1% of 18.61GB   Users logged in:       1
+  Memory usage: 77%                IP address for ens160: 192.168.0.92
+  Swap usage:   29%
+
+ * Kubernetes 1.18 GA is now available! See https://microk8s.io for docs or
+   install it with:
+
+     sudo snap install microk8s --channel=1.18 --classic
+
+ * Multipass 1.1 adds proxy support for developers behind enterprise
+   firewalls. Rapid prototyping for cloud operations just got easier.
+
+     https://multipass.run/
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+6 csomag frissíthetõ.
+0 frissítés biztonsági frissítés.
+
+
+Last login: Mon Apr 20 13:37:27 2020 from 185.217.73.197
+
+############
+
+####################################################################
+
+Logolás indítva (2020. 4. 20. 13:4:41)
+
+################################################################################mc-private@mc-private:~$ 
+<###################################################
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ Logolás indítva (2020. 4. 20. 13:4:41)
+-bash: szintaktikai hiba „(” váratlan token közelében
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+<###################################################
+
+helobelo
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+asdf
+
+„asdf” parancs nem található, erre gondolt:
+
+  „sadf” parancs sysstat deb csomagból
+  „sdf” parancs sdf deb csomagból
+  „asdfg” parancs aoeui deb csomagból
+  „adsf” parancs ruby-adsf deb csomagból
+
+Próbálja ki ezt: sudo apt install <deb_neve>
+
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+  System information as of Mon Apr 20 13:40:24 CEST 2020
+
+  System load:  1.58               Processes:             226
+  Usage of /:   59.1% of 18.61GB   Users logged in:       1
+  Memory usage: 77%                IP address for ens160: 192.168.0.92
+  Swap usage:   29%
+
+ * Kubernetes 1.18 GA is now available! See https://microk8s.io for docs or
+   install it with:
+
+     sudo snap install microk8s --channel=1.18 --classic
+
+ * Multipass 1.1 adds proxy support for developers behind enterprise
+   firewalls. Rapid prototyping for cloud operations just got easier.
+
+     https://multipass.run/
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+6 csomag frissíthetõ.
+0 frissítés biztonsági frissítés.
+
+
+Last login: Mon Apr 20 13:38:40 2020 from 185.217.73.197
+
+#mc-private@mc-private:~$ ########################################
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ Logolás indítva (2020.4.20. 13:4:26)
+-bash: szintaktikai hiba „(” váratlan token közelében#
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ ##############################
+
+##########
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+helo
+
+
+„helo” parancs nem található, erre gondolt:
+
+  „hello” parancs hello (2.10) snapbõl
+  „helm” parancs helm (3.1.2) snapbõl
+  „hello” parancs hello deb csomagból
+  „hello” parancs hello-traditional deb csomagból
+
+See 'snap info <snapname>' for additional versions.
+
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+########################################
+Logolás indítva (2020.4.20. 14:4:33)
+########################################
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Apr 20 14:20:31 CEST 2020
+
+  System load:  0.9                Processes:             227
+  Usage of /:   59.1% of 18.61GB   Users logged in:       1
+  Memory usage: 77%                IP address for ens160: 192.168.0.92
+  Swap usage:   29%
+
+ * Kubernetes 1.18 GA is now available! See https://microk8s.io for docs or
+   install it with:
+
+     sudo snap install microk8s --channel=1.18 --classic
+
+ * Multipass 1.1 adds proxy support for developers behind enterprise
+   firewalls. Rapid prototyping for cloud operations just got easier.
+
+     https://multipass.run/
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+6 csomag frissíthetõ.
+0 frissítés biztonsági frissítés.
+
+
+Last login: Mon Apr 20 14:17:30 2020 from 185.217.73.197
+
+mc-private@mc-private:~$ 
+
+helo
+
+
+„helo” parancs nem található, erre gondolt:
+
+  „helm” parancs helm (3.1.2) snapbõl
+  „hello” parancs hello (2.10) snapbõl
+  „hello” parancs hello deb csomagból
+  „hello” parancs hello-traditional deb csomagból
+
+See 'snap info <snapname>' for additional versions.
+
+
+mc-private@mc-private:~$ 
+mc-private@mc-private:~$ 
+
+########################################
+Logolás indítva (2020.4.20. 14:4:13)
+########################################
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Apr 20 14:22:11 CEST 2020
+
+  System load:  1.44               Processes:             221
+  Usage of /:   59.1% of 18.61GB   Users logged in:       1
+  Memory usage: 77%                IP address for ens160: 192.168.0.92
+  Swap usage:   29%
+
+ * Kubernetes 1.18 GA is now available! See https://microk8s.io for docs or
+   install it with:
+
+     sudo snap install microk8s --channel=1.18 --classic
+
+ * Multipass 1.1 adds proxy support for developers behind enterprise
+   firewalls. Rapid prototyping for cloud operations just got easier.
+
+     https://multipass.run/
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+6 csomag frissíthetõ.
+0 frissítés biztonsági frissítés.
+
+
+Last login: Mon Apr 20 14:20:32 2020 from 185.217.73.197
+
+
+mc-private@mc-private:~$ 
+
+cd ~/Asztal
+mc-private@mc-private:~/Asztal$ 
+mc-private@mc-private:~/Asztal$ 
+
+cd Szerver
+
+-bash: cd: Szerver: Nincs ilyen fájl vagy könyvtár
+mc-private@mc-private:~/Asztal$ 
+mc-private@mc-private:~/Asztal$ 
+
+cd szerver
+mc-private@mc-private:~/Asztal/szerver$ 
+mc-private@mc-private:~/Asztal/szerver$ 
+
+./start.sh
+--2020-04-20 14:23:43--  https://papermc.io/api/v1/paper/1.15.2/latest/download
+papermc.io (papermc.io) feloldása… 
+
+104.26.3.2, 104.26.2.2, 2606:4700:20::681a:302, ...
+Csatlakozás a következõhöz: papermc.io (papermc.io)[104.26.3.2]:443… kapcsolódva.
+HTTP kérés elküldve, várakozás válaszra… 
+
+200 OK
+Hossz: 44220311 (42M) [application/java-archive]
+Mentés ide: „paper.jar”
+
+
+paper.jar             0%[                    ]       0  --.-KB/s               
+
+
+paper.jar             1%[                    ] 487,63K  2,37MB/s               
+
+
+paper.jar             3%[                    ]   1,66M  4,15MB/s               
+
+
+paper.jar            11%[=>                  ]   4,80M  7,98MB/s               
+paper.jar            16%[==>                 ]   6,93M  8,63MB/s               
+
+
+paper.jar            21%[===>                ]   9,07M  9,04MB/s               
+paper.jar            26%[====>               ]  11,21M  9,31MB/s               
+
+
+paper.jar            31%[=====>              ]  13,34M  9,50MB/s               
+
+
+paper.jar            36%[======>             ]  15,48M  9,54MB/s               
+
+
+paper.jar            42%[=======>            ]  17,99M  9,87MB/s               
+
+
+paper.jar            48%[========>           ]  20,26M  10,0MB/s               
+
+
+paper.jar            52%[=========>          ]  22,33M  10,0MB/s               
+
+
+paper.jar            58%[==========>         ]  24,68M  10,2MB/s               
+
+
+paper.jar            63%[===========>        ]  26,94M  10,3MB/s               
+
+
+paper.jar            69%[============>       ]  29,21M  10,3MB/s               
+
+
+paper.jar            74%[=============>      ]  31,48M  10,4MB/s    kész: 1s   
+
+
+paper.jar            80%[===============>    ]  33,74M  10,5MB/s    kész: 1s   
+
+
+paper.jar            85%[================>   ]  35,90M  10,9MB/s    kész: 1s   
+paper.jar            90%[=================>  ]  37,98M  11,3MB/s    kész: 1s   
+
+
+paper.jar            95%[==================> ]  40,41M  11,0MB/s    kész: 1s   
+
+
+paper.jar           100%[===================>]  42,17M  11,0MB/s    idõ 4,0s   
+
+2020-04-20 14:23:48 (10,5 MB/s) -- „paper.jar” mentve [44220311/44220311]
+
+
+OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x0000000700000000, 4294967296, 0) failed; error='Not enough space' (errno=12)
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 4294967296 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/mc-private/Asztal/szerver/hs_err_pid30753.log
+mc-private@mc-private:~/Asztal/szerver$ 
+mc-private@mc-private:~/Asztal/szerver$ 
+
+./start.sh
+--2020-04-20 14:26:51--  https://papermc.io/api/v1/paper/1.15.2/latest/download
+papermc.io (papermc.io) feloldása… 104.26.2.2, 104.26.3.2, 2606:4700:20::681a:202, ...
+Csatlakozás a következõhöz: papermc.io (papermc.io)[104.26.2.2]:443… kapcsolódva.
+HTTP kérés elküldve, várakozás válaszra… 
+
+200 OK
+Hossz: 44220311 (42M) [application/java-archive]
+Mentés ide: „paper.jar”
+
+
+paper.jar             0%[                    ]       0  --.-KB/s               
+
+
+paper.jar             0%[                    ] 375,63K  1,71MB/s               
+
+
+paper.jar             5%[>                   ]   2,49M  6,01MB/s               
+
+
+paper.jar            11%[=>                  ]   4,75M  7,35MB/s               
+
+
+paper.jar            17%[==>                 ]   7,52M  8,89MB/s               
+
+
+paper.jar            22%[===>                ]   9,69M  9,26MB/s               
+
+
+paper.jar            28%[====>               ]  11,90M  9,53MB/s               
+
+
+paper.jar            33%[=====>              ]  14,10M  9,73MB/s               
+
+
+paper.jar            38%[======>             ]  16,13M  9,73MB/s               
+
+
+paper.jar            43%[=======>            ]  18,44M  9,91MB/s               
+
+
+paper.jar            49%[========>           ]  20,76M  10,0MB/s               
+
+
+paper.jar            55%[==========>         ]  23,27M  10,3MB/s               
+
+
+paper.jar            60%[===========>        ]  25,54M  10,4MB/s               
+
+
+paper.jar            65%[============>       ]  27,80M  10,4MB/s               
+
+
+paper.jar            70%[=============>      ]  29,69M  10,4MB/s               
+
+
+paper.jar            76%[==============>     ]  32,14M  10,5MB/s    kész: 1s   
+
+
+paper.jar            81%[===============>    ]  34,37M  10,9MB/s    kész: 1s   
+
+
+paper.jar            87%[================>   ]  36,71M  11,2MB/s    kész: 1s   
+
+
+paper.jar            92%[=================>  ]  39,05M  11,2MB/s    kész: 1s   
+
+
+paper.jar            98%[==================> ]  41,48M  11,2MB/s    kész: 1s   
+paper.jar           100%[===================>]  42,17M  11,1MB/s    idõ 4,0s   
+
+2020-04-20 14:26:55 (10,6 MB/s) -- „paper.jar” mentve [44220311/44220311]
+
+
+Patching vanilla jar...
+
+System Info: Java 11 (OpenJDK 64-Bit Server VM 11.0.6+10-post-Ubuntu-1ubuntu118.04.1) Host: Linux 4.15.0-96-generic (amd64)
+Loading libraries, please wait...
+
+2020-04-20 14:27:07,506 main ERROR Cannot access RandomAccessFile java.io.FileNotFoundException: logs/latest.log (Engedély megtagadva) java.io.FileNotFoundException: logs/latest.log (Engedély megtagadva)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:345)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:214)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:127)
+	at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager$RollingRandomAccessFileManagerFactory.createManager(RollingRandomAccessFileManager.java:180)
+	at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager$RollingRandomAccessFileManagerFactory.createManager(RollingRandomAccessFileManager.java:156)
+	at org.apache.logging.log4j.core.appender.AbstractManager.getManager(AbstractManager.java:112)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.getManager(OutputStreamManager.java:114)
+	at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.getRollingRandomAccessFileManager(RollingRandomAccessFileManager.java:87)
+	at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender$Builder.build(RollingRandomAccessFileAppender.java:115)
+	at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender$Builder.build(RollingRandomAccessFileAppender.java:52)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:122)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:952)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:892)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:884)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:508)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:232)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:244)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:545)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:617)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:634)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:229)
+	at org.apache.logging.log4j.core.async.AsyncLoggerContext.start(AsyncLoggerContext.java:76)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:152)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:45)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:194)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:551)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:537)
+	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.<clinit>(IAsyncTaskHandler.java:15)
+	at org.bukkit.craftbukkit.Main.main(Main.java:244)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.papermc.paperclip.Paperclip.main(Paperclip.java:54)
+
+2020-04-20 14:27:07,511 main ERROR Unable to inject fields into builder class for plugin type class org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender, element RollingRandomAccessFile. java.lang.IllegalStateException: ManagerFactory [org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager$RollingRandomAccessFileManagerFactory@4f2b503c] unable to create manager for [logs/latest.log] with data [org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager$FactoryData@bae7dc0]
+	at org.apache.logging.log4j.core.appender.AbstractManager.getManager(AbstractManager.java:114)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.getManager(OutputStreamManager.java:114)
+	at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.getRollingRandomAccessFileManager(RollingRandomAccessFileManager.java:87)
+	at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender$Builder.build(RollingRandomAccessFileAppender.java:115)
+	at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender$Builder.build(RollingRandomAccessFileAppender.java:52)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:122)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:952)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:892)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:884)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:508)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:232)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:244)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:545)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:617)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:634)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:229)
+	at org.apache.logging.log4j.core.async.AsyncLoggerContext.start(AsyncLoggerContext.java:76)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:152)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:45)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:194)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:551)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:537)
+	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.<clinit>(IAsyncTaskHandler.java:15)
+	at org.bukkit.craftbukkit.Main.main(Main.java:244)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.papermc.paperclip.Paperclip.main(Paperclip.java:54)
+
+2020-04-20 14:27:07,514 main ERROR Unable to invoke factory method in class class org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender for element RollingRandomAccessFile. java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.findFactoryMethod(PluginBuilder.java:224)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:130)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:952)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:892)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:884)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:508)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:232)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:244)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:545)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:617)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:634)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:229)
+	at org.apache.logging.log4j.core.async.AsyncLoggerContext.start(AsyncLoggerContext.java:76)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:152)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:45)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:194)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:551)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:537)
+	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.<clinit>(IAsyncTaskHandler.java:15)
+	at org.bukkit.craftbukkit.Main.main(Main.java:244)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.papermc.paperclip.Paperclip.main(Paperclip.java:54)
+
+2020-04-20 14:27:07,516 main ERROR Null object returned for RollingRandomAccessFile in Appenders.
+2020-04-20 14:27:07,523 main ERROR Unable to locate appender "File" for logger config "root"
+
+[14:27:13 INFO]: Starting minecraft server version 1.15.2
+[14:27:13 INFO]: Loading properties
+
+[?2004h> 
+[?2004l[?2004h>   [14:27:13 INFO]: This server is running Paper version git-Paper-201 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+> 
+
+  [14:27:13 INFO]: Debug logging is disabled
+>   [14:27:13 INFO]: Server Ping Player Sample Count: 12
+>   [14:27:13 INFO]: Using 4 threads for Netty based IO
+>   [14:27:13 INFO]: Default game type: SURVIVAL
+
+>   [14:27:13 INFO]: Generating keypair
+> 
+
+  [14:27:14 INFO]: Starting Minecraft server on *:25566
+>   [14:27:14 INFO]: Using epoll channel type
+> 
+
+  [33;1m[14:27:14 WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[m> 
+
+  [33;1m[14:27:24 WARN]: Legacy plugin dynmap v3.0-beta-10-257 does not specify an api-version.
+[m> 
+
+  [33;1m[14:27:24 WARN]: Legacy plugin SpigotPing v2.5 does not specify an api-version.
+[m>   [14:27:24 INFO]: [dynmap] Loading dynmap v3.0-beta-10-257
+>   [14:27:24 INFO]: [dynmap] version=git-Paper-201 (MC: 1.15.2)
+> 
+
+  [14:27:25 INFO]: [dynmap] Unload queue not found - default to unload all chunks
+>   [14:27:25 INFO]: [dynmap] inhabitedTicks field not found - inhabited shader not functional
+> 
+
+  [14:27:25 INFO]: [dynmap] Mod Support API available
+>   [14:27:25 INFO]: [SpigotPing] Loading SpigotPing v2.5
+>   [14:27:25 INFO]: [EntityTrackerFixer] Loading EntityTrackerFixer v1.2.2
+>   [14:27:25 INFO]: Server permissions file permissions.yml is empty, ignoring it
+>   [14:27:25 INFO]: Preparing level "world"
+> 
+
+  [14:27:25 INFO]: Reloading ResourceManager: Default, bukkit
+> 
+
+  [14:27:44 INFO]: Loaded 6 recipes
+> 
+
+  [14:27:44 INFO]: -------- World Settings For [world] --------
+>   [14:27:44 INFO]: Mob Spawn Range: 8
+>   [14:27:44 INFO]: Cactus Growth Modifier: 100%
+>   [14:27:44 INFO]: Cane Growth Modifier: 100%
+>   [14:27:44 INFO]: Melon Growth Modifier: 100%
+>   [14:27:44 INFO]: Mushroom Growth Modifier: 100%
+>   [14:27:44 INFO]: Pumpkin Growth Modifier: 100%
+>   [14:27:44 INFO]: Sapling Growth Modifier: 100%
+>   [14:27:44 INFO]: Beetroot Growth Modifier: 100%
+>   [14:27:44 INFO]: Carrot Growth Modifier: 100%
+>   [14:27:44 INFO]: Potato Growth Modifier: 100%
+>   [14:27:44 INFO]: Wheat Growth Modifier: 100%
+>   [14:27:44 INFO]: NetherWart Growth Modifier: 100%
+>   [14:27:44 INFO]: Vine Growth Modifier: 100%
+>   [14:27:44 INFO]: Cocoa Growth Modifier: 100%
+>   [14:27:44 INFO]: Bamboo Growth Modifier: 100%
+>   [14:27:44 INFO]: SweetBerry Growth Modifier: 100%
+>   [14:27:44 INFO]: Kelp Growth Modifier: 100%
+>   [14:27:44 INFO]: Experience Merge Radius: 0.1
+>   [14:27:44 INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
+>   [14:27:44 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>   [14:27:44 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>   [14:27:44 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+>   [14:27:44 INFO]: Max TNT Explosions: 100
+>   [14:27:44 INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+>   [14:27:44 INFO]: View Distance: 12
+>   [14:27:44 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>   [14:27:44 INFO]: Item Merge Radius: 1.5
+>   [14:27:44 INFO]: Item Despawn Rate: 6000
+>   [14:27:44 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+>   [14:27:44 INFO]: Zombie Aggressive Towards Villager: true
+>   [14:27:44 INFO]: Nerfing mobs spawned from spawners: false
+> 
+
+  [14:27:45 INFO]: -------- World Settings For [world_nether] --------
+>   [14:27:45 INFO]: Mob Spawn Range: 8
+>   [14:27:45 INFO]: Cactus Growth Modifier: 100%
+>   [14:27:45 INFO]: Cane Growth Modifier: 100%
+>   [14:27:45 INFO]: Melon Growth Modifier: 100%
+>   [14:27:45 INFO]: Mushroom Growth Modifier: 100%
+>   [14:27:45 INFO]: Pumpkin Growth Modifier: 100%
+>   [14:27:45 INFO]: Sapling Growth Modifier: 100%
+>   [14:27:45 INFO]: Beetroot Growth Modifier: 100%
+>   [14:27:45 INFO]: Carrot Growth Modifier: 100%
+>   [14:27:45 INFO]: Potato Growth Modifier: 100%
+>   [14:27:45 INFO]: Wheat Growth Modifier: 100%
+>   [14:27:45 INFO]: NetherWart Growth Modifier: 100%
+>   [14:27:45 INFO]: Vine Growth Modifier: 100%
+>   [14:27:45 INFO]: Cocoa Growth Modifier: 100%
+>   [14:27:45 INFO]: Bamboo Growth Modifier: 100%
+>   [14:27:45 INFO]: SweetBerry Growth Modifier: 100%
+>   [14:27:45 INFO]: Kelp Growth Modifier: 100%
+>   [14:27:45 INFO]: Experience Merge Radius: 0.1
+>   [14:27:45 INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
+>   [14:27:45 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>   [14:27:45 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>   [14:27:45 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+>   [14:27:45 INFO]: Max TNT Explosions: 100
+>   [14:27:45 INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+>   [14:27:45 INFO]: View Distance: 12
+>   [14:27:45 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>   [14:27:45 INFO]: Item Merge Radius: 1.5
+>   [14:27:45 INFO]: Item Despawn Rate: 6000
+>   [14:27:45 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+>   [14:27:45 INFO]: Zombie Aggressive Towards Villager: true
+>   [14:27:45 INFO]: Nerfing mobs spawned from spawners: false
+>   [14:27:45 INFO]: -------- World Settings For [world_the_end] --------
+>   [14:27:45 INFO]: Mob Spawn Range: 8
+>   [14:27:45 INFO]: Cactus Growth Modifier: 100%
+>   [14:27:45 INFO]: Cane Growth Modifier: 100%
+>   [14:27:45 INFO]: Melon Growth Modifier: 100%
+>   [14:27:45 INFO]: Mushroom Growth Modifier: 100%
+>   [14:27:45 INFO]: Pumpkin Growth Modifier: 100%
+>   [14:27:45 INFO]: Sapling Growth Modifier: 100%
+>   [14:27:45 INFO]: Beetroot Growth Modifier: 100%
+>   [14:27:45 INFO]: Carrot Growth Modifier: 100%
+>   [14:27:45 INFO]: Potato Growth Modifier: 100%
+>   [14:27:45 INFO]: Wheat Growth Modifier: 100%
+>   [14:27:45 INFO]: NetherWart Growth Modifier: 100%
+>   [14:27:45 INFO]: Vine Growth Modifier: 100%
+>   [14:27:45 INFO]: Cocoa Growth Modifier: 100%
+>   [14:27:45 INFO]: Bamboo Growth Modifier: 100%
+>   [14:27:45 INFO]: SweetBerry Growth Modifier: 100%
+>   [14:27:45 INFO]: Kelp Growth Modifier: 100%
+>   [14:27:45 INFO]: Experience Merge Radius: 0.1
+>   [14:27:45 INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
+>   [14:27:45 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+>   [14:27:45 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+>   [14:27:45 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+>   [14:27:45 INFO]: Max TNT Explosions: 100
+>   [14:27:45 INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+>   [14:27:45 INFO]: View Distance: 12
+>   [14:27:45 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+>   [14:27:45 INFO]: Item Merge Radius: 1.5
+>   [14:27:45 INFO]: Item Despawn Rate: 6000
+>   [14:27:45 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+>   [14:27:45 INFO]: Zombie Aggressive Towards Villager: true
+>   [14:27:45 INFO]: Nerfing mobs spawned from spawners: false
+>   [14:27:45 INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+> 
+
+  [14:27:45 INFO]: Loaded 0 spawn chunks for world world
+>   [14:27:45 INFO]: Preparing spawn area: 0%
+>   [14:27:45 INFO]: Preparing spawn area: 0%
+>   [14:27:45 INFO]: Time elapsed: 557 ms
+>   [14:27:45 INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+> 
+
+  [14:27:45 INFO]: Loaded 0 spawn chunks for world world_nether
+> 
+
+  [14:27:46 INFO]: Time elapsed: 344 ms
+>   [14:27:46 INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+>   [14:27:46 INFO]: Loaded 0 spawn chunks for world world_the_end
+> 
+
+  [14:27:46 INFO]: Time elapsed: 294 ms
+>   [14:27:46 INFO]: [dynmap] Enabling dynmap v3.0-beta-10-257*
+> 
+
+  [14:27:47 INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
+>   [14:27:47 INFO]: [dynmap] Web interface permissions only available for online users
+> 
+
+  [14:27:47 INFO]: [dynmap] Mod Support processing completed
+> 
+
+  [14:27:48 INFO]: [dynmap] Loaded 25 shaders.
+> 
+
+  [14:27:48 INFO]: [dynmap] Loaded 82 perspectives.
+>   [14:27:48 INFO]: [dynmap] Loaded 14 lightings.
+> 
+
+  [14:27:49 INFO]: [dynmap] Web server started on address 0.0.0.0:8124
+>   [14:27:49 INFO]: [dynmap] version 3.0-beta-10-257 is enabled - core version 3.0-beta-10-257
+>   [14:27:49 INFO]: [dynmap] For support, visit https://forums.dynmap.us
+>   [14:27:49 INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+>   [14:27:49 INFO]: [dynmap] Loaded 1 maps of world 'world'.
+>   [14:27:49 INFO]: [dynmap] Loaded 3 pending tile renders for world 'world'
+>   [14:27:49 INFO]: [dynmap] Loaded 1 maps of world 'world_nether'.
+>   [14:27:49 INFO]: [dynmap] Loaded 1 maps of world 'world_the_end'.
+> 
+
+  [14:27:49 INFO]: [dynmap] Enabled
+>   [14:27:49 INFO]: [SpigotPing] Enabling SpigotPing v2.5*
+>   [14:27:49 INFO]: [SpigotPing] TabList is enabled, task added with a delay of 5 second/s.
+>   [14:27:49 INFO]: [EntityTrackerFixer] Enabling EntityTrackerFixer v1.2.2
+>   [14:27:49 INFO]: Done (24.007s)! For help, type "help"
+>   [14:27:49 INFO]: Timings Reset
+> 
+
+  [14:27:50 INFO]: [dynmap] Loading default resource pack
+> 
+
+  [14:29:37 INFO]: UUID of player Mi_Miko is 66a9b022-7c01-4966-8831-6dcc63c99dd9
+> 
+
+  [14:29:38 INFO]: [0;33;1mMi_Miko[0;33;1m joined the game[m
+> 
+
+  [14:29:38 INFO]: Mi_Miko[/188.143.42.136:27261] logged in with entity id 1508 at ([world]1862.158542323142, 62.5, 2447.204049581477)
+> 
+
+hello itt Mikrobi
+[?2004l[?2004h> 
+[?2004l[?2004h>   [14:31:10 INFO]: Unknown command. Type "/help" for help.
+> 
+
+  [31;1m[14:32:49 ERROR]: Couldn't save stats
+java.io.IOException: File './world/stats/66a9b022-7c01-4966-8831-6dcc63c99dd9.json' cannot be written to
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils.openOutputStream(FileUtils.java:350) ~[patched_1.15.2.jar:git-Paper-201]
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:1981) ~[patched_1.15.2.jar:git-Paper-201]
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:2017) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.ServerStatisticManager.a(ServerStatisticManager.java:59) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.PlayerList.savePlayerFile(PlayerList.java:406) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.PlayerList.lambda$savePlayers$2(PlayerList.java:1003) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.MCUtil.ensureMain(MCUtil.java:268) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.PlayerList.savePlayers(PlayerList.java:1000) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1172) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946) ~[patched_1.15.2.jar:git-Paper-201]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[m> 
+
+say MikRobi
+[?2004l[?2004h> 
+[?2004l[?2004h>   [14:34:49 INFO]: [[0;37;1mServer[0;37;1m] [0;37;1mMikRobi[m
+> 
+
+  [31;1m[14:37:49 ERROR]: Couldn't save stats
+java.io.IOException: File './world/stats/66a9b022-7c01-4966-8831-6dcc63c99dd9.json' cannot be written to
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils.openOutputStream(FileUtils.java:350) ~[patched_1.15.2.jar:git-Paper-201]
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:1981) ~[patched_1.15.2.jar:git-Paper-201]
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:2017) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.ServerStatisticManager.a(ServerStatisticManager.java:59) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.PlayerList.savePlayerFile(PlayerList.java:406) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.PlayerList.lambda$savePlayers$2(PlayerList.java:1003) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.MCUtil.ensureMain(MCUtil.java:268) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.PlayerList.savePlayers(PlayerList.java:1000) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1172) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946) ~[patched_1.15.2.jar:git-Paper-201]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[m> 
+
+stop
+[?2004l[?2004h> 
+[?2004l[?2004h>   [14:41:00 INFO]: Stopping the server
+>   [14:41:00 INFO]: Stopping server
+>   [14:41:00 INFO]: [EntityTrackerFixer] Disabling EntityTrackerFixer v1.2.2
+>   [14:41:00 INFO]: [SpigotPing] Disabling SpigotPing v2.5
+>   [14:41:00 INFO]: [SpigotPing] Cancelling tasks...
+>   [14:41:00 INFO]: [dynmap] Disabling dynmap v3.0-beta-10-257
+>   [14:41:00 INFO]: [dynmap] Unloaded 11 components.
+>   [14:41:00 INFO]: [dynmap] Stopping map renderer...
+> 
+
+  [14:41:01 INFO]: [dynmap] Saved 2 pending tile renders in world 'world'
+>   [14:41:01 INFO]: [dynmap] Disabled
+>   [14:41:01 INFO]: Saving players
+>   [31;1m[14:41:01 ERROR]: Couldn't save stats
+java.io.IOException: File './world/stats/66a9b022-7c01-4966-8831-6dcc63c99dd9.json' cannot be written to
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils.openOutputStream(FileUtils.java:350) ~[patched_1.15.2.jar:git-Paper-201]
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:1981) ~[patched_1.15.2.jar:git-Paper-201]
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:2017) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.ServerStatisticManager.a(ServerStatisticManager.java:59) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.PlayerList.savePlayerFile(PlayerList.java:406) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.PlayerList.lambda$savePlayers$2(PlayerList.java:1003) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.MCUtil.ensureMain(MCUtil.java:268) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.PlayerList.savePlayers(PlayerList.java:1000) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.stop(MinecraftServer.java:750) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.stop(DedicatedServer.java:752) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:993) ~[patched_1.15.2.jar:git-Paper-201]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[m>   [14:41:01 INFO]: Mi_Miko lost connection: Server closed
+>   [31;1m[14:41:01 ERROR]: Couldn't save stats
+java.io.IOException: File './world/stats/66a9b022-7c01-4966-8831-6dcc63c99dd9.json' cannot be written to
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils.openOutputStream(FileUtils.java:350) ~[patched_1.15.2.jar:git-Paper-201]
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:1981) ~[patched_1.15.2.jar:git-Paper-201]
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:2017) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.ServerStatisticManager.a(ServerStatisticManager.java:59) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.PlayerList.savePlayerFile(PlayerList.java:406) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.PlayerList.disconnect(PlayerList.java:442) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1506) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.PlayerConnection.disconnect(PlayerConnection.java:282) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.PlayerList.shutdown(PlayerList.java:1120) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.stop(MinecraftServer.java:751) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.stop(DedicatedServer.java:752) ~[patched_1.15.2.jar:git-Paper-201]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:993) ~[patched_1.15.2.jar:git-Paper-201]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[m>   [14:41:01 INFO]: [0;33;1mMi_Miko left the game[m
+> 
+
+  [14:41:01 INFO]: Saving worlds
+>   [14:41:01 INFO]: Saving chunks for level 'world'/minecraft:overworld
+> 
+
+  [14:41:02 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+>   [14:41:02 INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+>   [14:41:02 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+>   [14:41:02 INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+>   [14:41:02 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+>   [14:41:02 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+> 
+
+  [14:41:03 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+> 
+
+  [14:41:03 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+> 
+
+  [14:41:03 INFO]: Saving usercache.json
+>   [14:41:03 INFO]: Flushing Chunk IO
+> [14:41:03 INFO]: Closing Thread Pool
+[14:41:03 INFO]: Closing Server
+
+mc-private@mc-private:~/Asztal/szerver$ 
+
