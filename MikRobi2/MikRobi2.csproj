@@ -8,4 +8,10 @@
 	<Deterministic>false</Deterministic>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>bin\Debug\netcoreapp3.1\MySql.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
