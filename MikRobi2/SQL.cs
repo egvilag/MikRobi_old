@@ -11,10 +11,15 @@ namespace MikRobi2
         string connstr;
         MySqlConnection myConn;
 
+        public static string dbServer;
+        public static string dbPort;
+        public static string dbUser;
+        public static string dbPassword;
+        public static string dbDatabase;
+
         public SQL()
         {
-            connstr = "Server=" + Program.dbServer + ";Port=" + Program.dbPort + ";Database=" + Program.dbDatabase +
-                ";Uid=" + Program.dbUser + ";Pwd=" + Program.dbPassword + ";CharSet=utf8;";
+            connstr = "Server=" + dbServer + ";Port=" + dbPort + ";Database=" + dbDatabase + ";Uid=" + dbUser + ";Pwd=" + dbPassword + ";CharSet=utf8;";
             myConn = new MySqlConnection(connstr);
         }
     }

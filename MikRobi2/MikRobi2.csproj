@@ -9,6 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="LZ4">
+      <HintPath>bin\Debug\netcoreapp3.1\LZ4.dll</HintPath>
+    </Reference>
     <Reference Include="MySql.Data">
       <HintPath>bin\Debug\netcoreapp3.1\MySql.Data.dll</HintPath>
     </Reference>

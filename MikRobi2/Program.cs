@@ -2,7 +2,9 @@
 using System.Net;
 using System.Net.Sockets;
 using System.IO;
+using System.Text;
 using System.Reflection;
+using System.Threading;
 
 
 namespace MikRobi2
@@ -11,16 +13,8 @@ namespace MikRobi2
     {
         static string ProgramName = "ÉGvilág Mikrobi v" + Assembly.GetEntryAssembly().GetName().Version;
 
-        public static string path = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+        public static string path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
         static string configFile = path + @"/mikrobi.cfg";
-
-        public static long maxLogSize;
-
-        public static string dbServer;
-        public static string dbPort;
-        public static string dbUser;
-        public static string dbPassword;
-        public static string dbDatabase;
 
         public static int launcherPort;
 
@@ -29,6 +23,7 @@ namespace MikRobi2
             Console.WriteLine(ProgramName);
             Console.WriteLine("Spurikutya (c) 2019-2021.");
             Console.WriteLine();
+            Log.CreateLogFile();
             ReadConfig();
         }
 
@@ -36,19 +31,19 @@ namespace MikRobi2
         {
             try
             {
-                maxLogSize = long.Parse(ReadConfig2(configFile, "MaxLogSize"));
+                Log.maxLogSize = long.Parse(ReadConfig2(configFile, "MaxLogSize"));
                 launcherPort = Int32.Parse(ReadConfig2(configFile, "LauncherPort"));
-                dbServer = ReadConfig2(configFile, "SQL-Server");
-                dbPort = ReadConfig2(configFile, "SQL-Port");
-                dbUser = ReadConfig2(configFile, "SQL-User");
-                dbPassword = ReadConfig2(configFile, "SQL-Password");
-                dbDatabase = ReadConfig2(configFile, "SQL-Database");
+                SQL.dbServer = ReadConfig2(configFile, "SQL-Server");
+                SQL.dbPort = ReadConfig2(configFile, "SQL-Port");
+                SQL.dbUser = ReadConfig2(configFile, "SQL-User");
+                SQL.dbPassword = ReadConfig2(configFile, "SQL-Password");
+                SQL.dbDatabase = ReadConfig2(configFile, "SQL-Database");
 
             }
             catch (Exception e)
             {
-                //WriteLog("Nem olvasható a config fájl!", true);
-                //CloseLogFile();
+                Log.WriteLog("Nem olvasható a config fájl!", true);
+                Log.CloseLogFile();
                 Environment.Exit(0);
             }
         }
@@ -70,11 +65,13 @@ namespace MikRobi2
             }
             catch (Exception e)
             {
-                //WriteLog("Nem olvasható a fájl: " + filename, true);
-                //CloseLogFile();
+                Log.WriteLog("Nem olvasható a fájl: " + filename, true);
+                Log.CloseLogFile();
                 Environment.Exit(0);
             }
             return value;
         }
+
+        
     }
 }
