@@ -17,8 +17,4 @@
     </Reference>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="LOGS\" />
-  </ItemGroup>
-
 </Project>

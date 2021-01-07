@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Net;
 using System.Net.Sockets;
-using System.Threading;
+using System.Text;
+using System.Collections.Generic;
 
 namespace MikRobi2
 {
@@ -11,57 +10,107 @@ namespace MikRobi2
     {
         public static int launcherPort;
 
-        static TcpListener listener;
-        static Thread thFigyel;
-        public static List<LauncherSession> launcherSessions = new List<LauncherSession>();
+        static Socket serverSocket;
+        static List<Socket> clientSockets = new List<Socket>();
+        static byte[] buffer = new byte[1024];
 
-        public static void StartLstening()
+        private static void RemoveSocket(Socket socket)
         {
-            listener = new TcpListener(IPAddress.Any, launcherPort);
-            listener.Start();
-            thFigyel = new Thread(() => tFigyel());
-            thFigyel.Start();
+            for (int i = 0; i < clientSockets.Count; i++)
+            {
+                if (clientSockets[i].Handle == socket.Handle)
+                    clientSockets.RemoveAt(i);
+            }
+            return;
+        }
+
+        public static void StartListening()
+        {
+            try
+            {
+                serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                serverSocket.Bind(new IPEndPoint(IPAddress.Any, launcherPort));
+                serverSocket.Listen(10);
+                serverSocket.BeginAccept(new AsyncCallback(AcceptCallback), null);
+            }
+            catch (Exception e)
+            {
+                Log.WriteLog("Hiba a figyelésnél: " + e.Message, true);
+            }
+        }
+
+        static void AcceptCallback(IAsyncResult AR)
+        {
+            Socket Socket = serverSocket.EndAccept(AR);
+            try
+            {
+                clientSockets.Add(Socket);
+                //buffer = new byte[clientSocket.ReceiveBufferSize];
+                Socket.BeginReceive(buffer, 0, buffer.Length, SocketFlags.None, new AsyncCallback(ReceiveCallback), Socket);
+                serverSocket.BeginAccept(new AsyncCallback(AcceptCallback), null);
+
+                Log.WriteLog("Kliens csatlakozva: " + Socket.RemoteEndPoint.ToString(), true);
+            }
+            catch (Exception e)
+            {
+                Log.WriteLog("Hiba a kapcsolódásnál: " + e.Message, true);
+                Socket.Close();
+                RemoveSocket(Socket);
+            }
+        }
+
+        static void ReceiveCallback(IAsyncResult AR)
+        {
+            Socket socket = (Socket)AR.AsyncState;
+            try
+            {
+                int received = socket.EndReceive(AR);
+
+                if (received == 0)
+                {
+                    Log.WriteLog("Kliens lecsatlakozott: " + socket.RemoteEndPoint.ToString(), true);
+                    RemoveSocket(socket);
+                    return;
+                }
+
+                byte[] dataBuff = new byte[received];
+                Array.Copy(buffer, dataBuff, received);
+
+                string text = Encoding.ASCII.GetString(dataBuff);
+
+                if (text=="exit")
+                    socket.Close();
+
+                Console.WriteLine(text);
+                
+                SendData(socket, buffer);
+                socket.BeginReceive(buffer, 0, buffer.Length, SocketFlags.None, new AsyncCallback(ReceiveCallback), socket);
+            }
+            catch (Exception e)
+            {
+                Log.WriteLog("Hiba a fogadásnál: " + e.Message, true);
+                socket.Close();
+                RemoveSocket(socket);
+            }
+        }
+
+        static void SendCallback(IAsyncResult AR)
+        {
+            Socket socket = (Socket)AR.AsyncState;
+            socket.EndSend(AR);
+        }
+
+        static void SendData(Socket sock, byte[] data)
+        {
+            sock.BeginSend(data, 0, data.Length, SocketFlags.None, new AsyncCallback(SendCallback), sock);
         }
 
         public static void StopListening()
         {
-            
-            thFigyel.Abort();
-            thFigyel = null;
-            listener.Stop();
-            listener = null;
-            foreach (LauncherSession lc in launcherSessions)
-                lc.CloseCon();
+            foreach (Socket s in clientSockets)
+                s.Close();
+            clientSockets.Clear();
+            serverSocket.Close();
         }
-
-        static void tFigyel()
-        {
-            TcpClient kliens;
-            LauncherSession lc;
-            string clientaddress;
-            string serveraddress = IPAddress.Parse(((IPEndPoint)listener.LocalEndpoint).Address.ToString())
-                + ":" + ((IPEndPoint)listener.LocalEndpoint).Port.ToString();
-            while (true)
-            {
-                try
-                {
-                    kliens = listener.AcceptTcpClient();
-                    clientaddress = IPAddress.Parse(((IPEndPoint)kliens.Client.RemoteEndPoint).Address.ToString())
-                    + ":" + ((IPEndPoint)kliens.Client.RemoteEndPoint).Port.ToString();
-                    Log.WriteLog("Új bejövő kapcsolat észlelve: " + clientaddress, true);
-                    lc = new LauncherSession();
-                    lc.kliens = kliens;
-                    //lc.kliens.ReceiveTimeout = 5000;
-                    lc.address = clientaddress;
-                    lc.connected = true;
-                    lc.lastActivity = DateTime.Now;
-                    if (!SQL.CheckBlacklist(clientaddress)) lc.Start();
-                    else lc.CloseCon();
-                }
-                catch (Exception e)
-                { Log.WriteLog("Hiba a kliensfigyeléskor: " + e.Message, true); }
-
-            }
-        }
-        }
+    }
 }

@@ -12,7 +12,6 @@ namespace MikRobi2
         // Full path to binary
         public static string path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
-
         static void Main(string[] args)
         {
             Console.WriteLine(ProgramName);
@@ -21,7 +20,7 @@ namespace MikRobi2
             Config.ReadConfig();
             Log.CreateLogFile();
             SQL.MakeConnection();
-            Listener.StartLstening();
+            Listener.StartListening();
             CLI.StartCLI();
         }
     }

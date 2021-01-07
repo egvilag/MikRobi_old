@@ -62,7 +62,8 @@ namespace MikRobi2
         static void StopServer()
         {
             Log.WriteLog("Szerver leállítása...", true);
-            Listener.StopListening();
+            //Listener.StopListening();
+            //Listener.StopListening();
             //thRadio.Abort();
             //thSetOffline.Abort();
             Log.CloseLogFile();
