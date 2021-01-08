@@ -9,12 +9,14 @@ namespace MikRobi2
     {
         static Thread thCLI;
 
+        // Start new thread for processing command line instructions
         public static void StartCLI()
         {
             thCLI= new Thread(ReadCLICommand);
             thCLI.Start();
         }
 
+        // Listen for console commands until stop signal
         static void ReadCLICommand()
         {
             while (true)
@@ -29,6 +31,7 @@ namespace MikRobi2
             }
         }
 
+        // Process command
         public static bool ExecuteCommand(string command)
         {
             Log.WriteLog(command, false);
@@ -49,6 +52,7 @@ namespace MikRobi2
             return contWork;
         }
 
+        // Show list of available commands
         static void ShowHelp()
         {
             Console.WriteLine();
@@ -59,10 +63,10 @@ namespace MikRobi2
             Console.WriteLine();
         }
 
+        // Stop TCP server
         static void StopServer()
         {
             Log.WriteLog("Szerver leállítása...", true);
-            //Listener.StopListening();
             //Listener.StopListening();
             //thRadio.Abort();
             //thSetOffline.Abort();

@@ -12,6 +12,7 @@ namespace MikRobi2
         static StreamWriter stream;
         public static long maxLogSize;
 
+        // Create te console log file
         public static void CreateLogFile()
         {
             try
@@ -28,6 +29,7 @@ namespace MikRobi2
             WriteLog("########################################", false);
         }
 
+        // Write new line to the console log file. writeBack: if TRUE then the log also appears on screen
         public static void WriteLog(string line, bool writeBack)
         {
             string dateTime;
@@ -51,6 +53,7 @@ namespace MikRobi2
             }
         }
 
+        // Check the console log file size. If it is bigger than the limit, it calls the archiving function.
         static void CheckSize(long maxSize)
         {
             if (new FileInfo(Program.path + @"/LOGS/console.log").Length > maxSize)
@@ -83,6 +86,7 @@ namespace MikRobi2
             }
         }
 
+        // Close the file
         public static void CloseLogFile()
         {
             stream.Flush();
@@ -90,6 +94,7 @@ namespace MikRobi2
             stream = null;
         }
 
+        // LZ4 compression method
         public static void Compress(string source, string destination)
         {
             WriteLog("Tömörítés...", true);
@@ -109,6 +114,7 @@ namespace MikRobi2
             WriteLog("Tömörítés kész", true);
         }
 
+        // LZ4 decompression (currently not in use)
         static void Decompress(string source, string destination)
         {
             WriteLog("Kicsomagolás...", true);

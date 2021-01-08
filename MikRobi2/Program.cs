@@ -8,6 +8,7 @@ namespace MikRobi2
 {
     class Program
     {
+        // Program name with actual major.minor.build.revision number
         static string ProgramName = "ÉGvilág Mikrobi v" + Assembly.GetEntryAssembly().GetName().Version;
         // Full path to binary
         public static string path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
@@ -17,6 +18,7 @@ namespace MikRobi2
             Console.WriteLine(ProgramName);
             Console.WriteLine("Spurikutya (c) 2019-2021.");
             Console.WriteLine();
+            // Initialize sub-units
             Config.ReadConfig();
             Log.CreateLogFile();
             SQL.MakeConnection();

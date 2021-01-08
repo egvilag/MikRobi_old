@@ -14,6 +14,7 @@ namespace MikRobi2
         static List<Socket> clientSockets = new List<Socket>();
         static byte[] buffer = new byte[1024];
 
+        // Remove socket from the collection
         private static void RemoveSocket(Socket socket)
         {
             for (int i = 0; i < clientSockets.Count; i++)
@@ -24,6 +25,7 @@ namespace MikRobi2
             return;
         }
 
+        // Fire up looking for client connections
         public static void StartListening()
         {
             try
@@ -39,6 +41,7 @@ namespace MikRobi2
             }
         }
 
+        // Runs when there is a new incoming connection. Notice the BeginAccept call, which continues the listening process.
         static void AcceptCallback(IAsyncResult AR)
         {
             Socket Socket = serverSocket.EndAccept(AR);
@@ -59,6 +62,7 @@ namespace MikRobi2
             }
         }
 
+        // Runs when there is data in the socket to receive
         static void ReceiveCallback(IAsyncResult AR)
         {
             Socket socket = (Socket)AR.AsyncState;
@@ -94,17 +98,20 @@ namespace MikRobi2
             }
         }
 
+        // Begin send data to the client
+        static void SendData(Socket sock, byte[] data)
+        {
+            sock.BeginSend(data, 0, data.Length, SocketFlags.None, new AsyncCallback(SendCallback), sock);
+        }
+
+        // After sending is precessed it ends the send
         static void SendCallback(IAsyncResult AR)
         {
             Socket socket = (Socket)AR.AsyncState;
             socket.EndSend(AR);
         }
 
-        static void SendData(Socket sock, byte[] data)
-        {
-            sock.BeginSend(data, 0, data.Length, SocketFlags.None, new AsyncCallback(SendCallback), sock);
-        }
-
+        // Stops listening and clears the socket list
         public static void StopListening()
         {
             foreach (Socket s in clientSockets)

@@ -17,12 +17,14 @@ namespace MikRobi2
         public static string dbPassword;
         public static string dbDatabase;
 
+        // Make database connection with the actual credentials
         public static void MakeConnection()
         {
             connstr = "Server=" + dbServer + ";Port=" + dbPort + ";Database=" + dbDatabase + ";Uid=" + dbUser + ";Pwd=" + dbPassword + ";CharSet=utf8;";
             myConn = new MySqlConnection(connstr);
         }
 
+        // Execute SQL command and return affected row count
         static long SQLCommandCount(string command)
         {
             long result = -1;
@@ -42,6 +44,7 @@ namespace MikRobi2
             return result;
         }
 
+        // Look for IP ban in the database
         public static bool CheckBlacklist(string IP)
         {
             string command = "SELECT ID COUNT FROM blacklist WHERE IP='"

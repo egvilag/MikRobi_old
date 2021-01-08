@@ -9,6 +9,7 @@ namespace MikRobi2
     {
         static string configFile = Program.path + @"/mikrobi.cfg";
 
+        // Give values to config variables
         public static void ReadConfig()
         {
             try
@@ -29,6 +30,7 @@ namespace MikRobi2
             }
         }
 
+        // Low level function to read the config file
         static string ReadConfig2(string filename, string key)
         {
             string value = "";
