@@ -1,6 +1,0 @@
-//MessageBox.Show(Crypter.Phpass.Crypt("Wooftracker13", "$P$BboWmwzFXLw3.QReqUfxqrMvM4DHBF.")); //hash $P$B után jövő 8 karaktere a salt
-
-
-
-superSU
-$2y$10$cNlWzzWr8LX8fqYkuVYHG.rIwyEBaC55xc7y/pSS8YJQ6.dUqdMT.
