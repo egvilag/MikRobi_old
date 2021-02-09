@@ -28,26 +28,27 @@ namespace MikRobi2
                 Console.Write(" ");
             Console.WriteLine();
             ChangeMenu(1);
+            int menu = 1;
             while (true)
             {
                 bool work = true;
                 string cmd = "";
-                ConsoleKey ck;
+                ConsoleKey ck = new ConsoleKey();
                 do
                 {
                     //cmd = Console.ReadLine();
-                    ck = Console.ReadKey().Key;
-                    if (ck == ConsoleKey.Enter) work = ExecuteCommand(cmd);
-                    else 
-                        if ((ck != ConsoleKey.F1) && (ck != ConsoleKey.F2) && (ck != ConsoleKey.F3) && (ck != ConsoleKey.F4) &&
-                                (ck != ConsoleKey.F5) && (ck != ConsoleKey.F6) && (ck != ConsoleKey.F7) && (ck != ConsoleKey.F8) &&
-                                (ck != ConsoleKey.F9) && (ck != ConsoleKey.F10) && (ck != ConsoleKey.F11) && (ck != ConsoleKey.F12))
-                                    cmd += ck.ToString();
-                        else
-                            switch (ck)
-                            {
-                                case ConsoleKey.F1: ChangeMenu(1); break;
-                                case ConsoleKey.F2: ChangeMenu(2); break;
+                    ck = Console.ReadKey(menu != 2).Key;
+                    if ((menu == 2) && (ck == ConsoleKey.Enter))
+                    {
+                        work = ExecuteCommand(cmd);
+                        cmd = "";
+                    }
+                    else
+                        switch (ck)
+                        {
+                            case ConsoleKey.F1: menu = 1; ChangeMenu(1); break;
+                            case ConsoleKey.F2: menu = 2; ChangeMenu(2); break;
+                            default: if (menu == 2) cmd = ck.ToString(); break;
                         }
                 }
                 //while (ExecuteCommand(cmd));
@@ -68,6 +69,7 @@ namespace MikRobi2
                 Console.BackgroundColor = ConsoleColor.Yellow;
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write(" CLIENTS");
+                Console.CursorVisible = false;
             }
             else
             {
@@ -88,7 +90,8 @@ namespace MikRobi2
                 Console.Write("2");
                 Console.BackgroundColor = ConsoleColor.Yellow;
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write(" BLABLA");
+                Console.Write(" CONS");
+                Console.CursorVisible = true;
             }
             else
             {
@@ -97,11 +100,12 @@ namespace MikRobi2
                 Console.Write("2");
                 Console.BackgroundColor = ConsoleColor.Cyan;
                 Console.ForegroundColor = ConsoleColor.Black;
-                Console.Write(" BLABLA");
+                Console.Write(" CONS");
             }
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.Write(" ");
+            Console.WriteLine();
         }
 
         // Process command

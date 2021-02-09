@@ -6,21 +6,40 @@ using System.Collections.Generic;
 
 namespace MikRobi2
 {
+    class Client
+    {
+        public Socket socket;
+        public Client(Socket s)
+        {
+            socket = s;
+        }
+    }
+
     static class Listener
     {
         public static int launcherPort;
 
         static Socket serverSocket;
-        static List<Socket> clientSockets = new List<Socket>();
+        //static List<Socket> clientSockets = new List<Socket>();
+        static List<Client> clients = new List<Client>();
         static byte[] buffer = new byte[1024];
 
         // Remove socket from the collection
-        private static void RemoveSocket(Socket socket)
+        //private static void RemoveSocket(Socket socket)
+        //{
+        //    for (int i = 0; i < clientSockets.Count; i++)
+        //    {
+        //        if (clientSockets[i].Handle == socket.Handle)
+        //            clientSockets.RemoveAt(i);
+        //    }
+        //    return;
+        //}
+        private static void RemoveClient(Socket socket)
         {
-            for (int i = 0; i < clientSockets.Count; i++)
+            for (int i = 0; i < clients.Count; i++)
             {
-                if (clientSockets[i].Handle == socket.Handle)
-                    clientSockets.RemoveAt(i);
+                if (clients[i].socket.Handle == socket.Handle)
+                    clients.RemoveAt(i);
             }
             return;
         }
@@ -47,7 +66,8 @@ namespace MikRobi2
             Socket Socket = serverSocket.EndAccept(AR);
             try
             {
-                clientSockets.Add(Socket);
+                //clientSockets.Add(Socket);
+                clients.Add(new Client(Socket));
                 //buffer = new byte[clientSocket.ReceiveBufferSize];
                 Socket.BeginReceive(buffer, 0, buffer.Length, SocketFlags.None, new AsyncCallback(ReceiveCallback), Socket);
                 serverSocket.BeginAccept(new AsyncCallback(AcceptCallback), null);
@@ -58,7 +78,8 @@ namespace MikRobi2
             {
                 Log.WriteLog("Hiba a kapcsolódásnál: " + e.Message, true);
                 Socket.Close();
-                RemoveSocket(Socket);
+                //RemoveSocket(Socket);
+                RemoveClient(Socket);
             }
         }
 
@@ -73,7 +94,8 @@ namespace MikRobi2
                 if (received == 0)
                 {
                     Log.WriteLog("Kliens lecsatlakozott: " + socket.RemoteEndPoint.ToString(), true);
-                    RemoveSocket(socket);
+                    //RemoveSocket(socket);
+                    RemoveClient(socket);
                     return;
                 }
 
@@ -94,7 +116,8 @@ namespace MikRobi2
             {
                 Log.WriteLog("Hiba a fogadásnál: " + e.Message, true);
                 socket.Close();
-                RemoveSocket(socket);
+                //RemoveSocket(socket);
+                RemoveClient(socket);
             }
         }
 
@@ -114,9 +137,12 @@ namespace MikRobi2
         // Stops listening and clears the socket list
         public static void StopListening()
         {
-            foreach (Socket s in clientSockets)
-                s.Close();
-            clientSockets.Clear();
+            //foreach (Socket s in clientSockets)
+            //s.Close();
+            //clientSockets.Clear();
+            foreach (Client c in clients)
+                c.socket.Close();
+            clients.Clear();
             serverSocket.Close();
         }
     }
