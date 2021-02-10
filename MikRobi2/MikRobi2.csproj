@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.23" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="LZ4">
       <HintPath>bin\Debug\netcoreapp3.1\LZ4.dll</HintPath>
     </Reference>

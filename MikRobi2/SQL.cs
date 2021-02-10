@@ -24,8 +24,8 @@ namespace MikRobi2
             myConn = new MySqlConnection(connstr);
             try
             {
-                //myConn.Open();
-                //myConn.Close();
+                myConn.Open();
+                myConn.Close();
                 return true;
             }
             catch (Exception e)
@@ -40,7 +40,7 @@ namespace MikRobi2
         static long SQLCommandCount(string command)
         {
             long result = -1;
-            myConn = new MySqlConnection(connstr);
+            //myConn = new MySqlConnection(connstr);
             MySqlCommand cmd = new MySqlCommand(command, myConn);
             try
             {
