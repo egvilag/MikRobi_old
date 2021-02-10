@@ -21,9 +21,11 @@ namespace MikRobi2
             // Initialize sub-units
             Config.ReadConfig();
             Log.CreateLogFile();
-            SQL.MakeConnection();
-            Listener.StartListening();
-            CLI.StartCLI();
+            if (SQL.MakeConnection());
+            {
+                Listener.StartListening();
+                CLI.StartCLI();
+            }
         }
     }
 }

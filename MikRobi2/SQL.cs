@@ -18,10 +18,22 @@ namespace MikRobi2
         public static string dbDatabase;
 
         // Make database connection with the actual credentials
-        public static void MakeConnection()
+        public static bool MakeConnection()
         {
             connstr = "Server=" + dbServer + ";Port=" + dbPort + ";Database=" + dbDatabase + ";Uid=" + dbUser + ";Pwd=" + dbPassword + ";CharSet=utf8;";
             myConn = new MySqlConnection(connstr);
+            try
+            {
+                myConn.Open();
+                myConn.Close();
+                return true;
+            }
+            catch (Exception e)
+            {
+                Log.WriteLog("Adatbázis hiba: " + e.Message, true);
+                myConn.Close();
+                return false;
+            }
         }
 
         // Execute SQL command and return affected row count
