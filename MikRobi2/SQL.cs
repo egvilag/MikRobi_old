@@ -24,8 +24,8 @@ namespace MikRobi2
             myConn = new MySqlConnection(connstr);
             try
             {
-                myConn.Open();
-                myConn.Close();
+                //myConn.Open();
+                //myConn.Close();
                 return true;
             }
             catch (Exception e)
