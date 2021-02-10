@@ -14,6 +14,7 @@ namespace MikRobi2
         {
             try
             {
+                if (!File.Exists(configFile)) CreateConfigFile();
                 Log.maxLogSize = long.Parse(ReadConfig2(configFile, "MaxLogSize"));
                 Listener.launcherPort = Int32.Parse(ReadConfig2(configFile, "LauncherPort"));
                 SQL.dbServer = ReadConfig2(configFile, "SQL-Server");
@@ -28,6 +29,21 @@ namespace MikRobi2
                 Console.WriteLine("Nem olvasható a config fájl!" + "(" + e.Message + ")");
                 Environment.Exit(0);
             }
+        }
+
+        // Create blank config file
+        static void CreateConfigFile()
+        {
+            StreamWriter sw = new StreamWriter(configFile);
+            sw.WriteLine("MaxLogSize=629145600");
+            sw.WriteLine("LauncherPort=");
+            sw.WriteLine("SQL-Server=");
+            sw.WriteLine("SQL-Port=");
+            sw.WriteLine("SQL-User=");
+            sw.WriteLine("SQL-Password=");
+            sw.WriteLine("SQL-Database=");
+            sw.Flush();
+            sw.Close();
         }
 
         // Low level function to read the config file

@@ -17,6 +17,7 @@ namespace MikRobi2
         {
             try
             {
+                if (!Directory.Exists(Program.path + @"/LOGS")) Directory.CreateDirectory(Program.path + @"/LOGS");
                 stream = new StreamWriter(Program.path + @"/LOGS/console.log", true, Encoding.UTF8, 65535);
             }
             catch
