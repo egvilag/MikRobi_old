@@ -10,6 +10,7 @@ namespace MikRobi2
     {
         static string connstr;
         static MySqlConnection myConn;
+        static bool noDatabase = false;
 
         public static string dbServer;
         public static string dbPort;
@@ -20,8 +21,14 @@ namespace MikRobi2
         // Make database connection with the actual credentials
         public static bool MakeConnection()
         {
-            connstr = "Server=" + dbServer + ";Port=" + dbPort + ";Database=" + dbDatabase + ";Uid=" + dbUser + ";Pwd=" + dbPassword + ";CharSet=utf8;";
+            connstr = "Server=" + dbServer + ";Port=" + dbPort + ";Database=" + dbDatabase + ";Uid=" + dbUser + ";Pwd=" + dbPassword + ";CharSet=utf8;Connect Timeout=10";
             myConn = new MySqlConnection(connstr);
+            if ((dbServer == "") || (dbDatabase == "") || (dbUser == "") || (dbPassword == ""))
+            {
+                Log.WriteLog("Nincs megadva vagy hibás az adatbázis kapcsolat konfigurációja!", true);
+                Environment.Exit(0);
+            }
+            Console.WriteLine("Adatbázis kapcsolat tesztelése...");
             try
             {
                 myConn.Open();
